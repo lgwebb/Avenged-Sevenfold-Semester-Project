@@ -1,0 +1,439 @@
+ /* Semester Project - Lucas Webb */
+body
+    {
+        font-size: 1em;
+        font-family: Verdana,sans-serif;
+        background-color: #000000;
+    }
+
+ .divWrap
+    { 
+        width: 88%;
+        min-height: 880px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+
+
+.pageheader
+    {
+        width: 96%;
+        min-height: 25px;
+        border-bottom: 2px black solid;
+        background-color: #000000;
+        color: white;
+        font-size: 250%;
+        font-weight: 800;
+        text-align: center;
+        margin: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        float: left;
+    }
+ .pageFooter
+    {
+        width: 96%;
+        min-height: 55px;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: center;
+        float: left;
+    }
+.menuBar
+    {
+        width: 80%;
+        min-height: 25px;
+        background-color: #EBEBEB;
+        padding-left:20%;
+        color: #ffffff;
+        position: relative;
+        float: left;
+    }
+     .menuBar ul
+        {
+            width: 100%;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .menuBar li
+        {
+            min-width: 10%;
+            float: left;
+            font-size: 1.2em;
+            padding-left: .5%;
+            padding-right: .5%;
+        }
+
+        .menuBar a
+        {
+            display: block;
+            padding: 3px 6px;
+            text-decoration: none;
+            color: #000000;
+        }
+
+            .menuBar a:hover
+            {
+                color: white;
+                background-color: #aa1111;
+            }
+
+    .menuSide
+    {
+        min-width: 18%;
+        min-height: 490px;
+        background-color: #ebebeb;
+        color: #ffffff;
+        position: relative;
+        float: left;
+        margin-left:-1%;
+    }
+
+        .menuSide ul
+        {
+                width: 100%;
+                list-style: none;
+                margin-left: -40px;
+        }
+
+
+        .menuSide li
+        {
+            min-width: 18%;
+            font-size: 1.2em;
+            padding-left: .5%;
+            padding-right: .5%;
+            border-bottom:1px solid #c8c89a;
+        }
+
+        .menuSide a
+        {
+            display: block;
+            padding: 3px 6px;
+            text-decoration: none;
+            color: #000000;
+        }
+
+            .menuSide a:hover
+            {
+                color: white;
+                background-color: #AA1111;
+            }
+
+    .selected
+    {
+        color: white;
+        background-color: #AA1111;
+        min-width: 100%;
+    }
+
+ .sectionMain
+    {
+        width: 98%;
+        min-height: 550px;
+        background-color: #AA1111;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+    }
+
+    .sectionRight
+    {
+        width: 82%;
+        min-height: 490px;
+        background-color: #AA1111;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+
+
+
+.deathbatlogo
+    {
+        float: left;
+        width: auto;
+    }
+
+.articleMembers
+    {
+        width: 98%;
+        min-height: 45px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.articleLeft
+    {
+        width: 50%;
+        min-height: 45px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.articleRight
+    {
+        width: 30%;
+        min-height: 300px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .articleHeading
+    { 
+        font-size: 1.5em;
+        color: #000000;
+        text-align: center;
+    }
+
+    img
+    {
+        width: 100%;
+    }
+
+    .divImageWrap
+    {
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+.divImageWrapAbout
+    {
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+.divImageWrapSyn
+    {
+        width: 55%;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+.divImageWrapZacky
+    {
+        width: 85%;
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+.divImageWrapJohnny
+    {
+        width: 68%;
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+.divImageWrapGif
+{
+    width: 50%;
+    position: relative;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+  .divImageWrapRev
+    {
+        width: 100%;
+        align-content: center;
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+
+.sectionAbout
+    {
+        width: 99%;
+        min-height: 490px;
+        background-color: #AA1111;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+ .divWrapMembers
+    { 
+        width: 88%;
+        min-height: 1400px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+.pageFooterExtended
+    {
+        width: 96%;
+        min-height: 105px;
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: center;
+        float: left;
+    }
+.BandGif
+    {
+        width: 70%;
+    }
+.sectionTwitter
+    {
+        width: 99%;
+        min-height: 490px;
+        background-color: #000000;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+
+.articleTwitterFeed
+    {
+        width: 47%;
+        height: auto;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.twitter-timeline
+    {
+        width: auto;
+        height: auto;
+        min-height: 395px;;
+    }
+
+.articleTwitterTimeline
+    {
+        width: 46%;
+        min-height: 445px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+
+.asideTwitter
+    {
+        width: 96%;
+        background-color: #EBEBEB;
+        border: black;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.articleSurvey
+    {
+        width: 60%;
+        min-height: 50px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+#divConfirm
+    {
+        text-align: left;
+        font-weight: bold;
+    }
+.sectionRightSurvey
+    {
+        width: 98%;
+        min-height: 490px;
+        background-color: #AA1111;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+.divEmail
+    { 
+        width: 97%;
+        height: 70%;
+        margin: auto;
+        border: 1px green solid;
+        background-color: crimson;
+        padding: 1%;
+        font-size: x-large;
+        color: white;
+        text-align: center;
+    }
+.video
+    {
+        position: relative;
+    }
+ .divWrapTheRev
+    { 
+        width: 88%;
+        min-height: 1370px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+ .divWrapHome
+    { 
+        width: 88%;
+        min-height: 840px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+.articleRightConfirm
+    {
+        width: 30%;
+        min-height: 310px;
+        background-color: #EBEBEB;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+#ImgShow
+    {
+        max-height: 300px;
+    }

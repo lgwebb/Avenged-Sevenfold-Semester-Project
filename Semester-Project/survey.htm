@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <title> Survey Page</title>
+    <!-- Semester Project - Lucas Webb -->
+    <!-- Color Scheme103: http://www.colorcombos.com/color-schemes/103/ColorCombo103.html -->
+    <link href="Styles.css" rel="stylesheet" />
+    <script src="scripts/Scripts.js" type="text/javascript">
+    </script>
+    <script>
+    function Reset()
+{
+    document.getElementById("FormS").reset();
+}
+
+function ConfirmFav()
+{
+    var Name_entered = document.getElementById("name").value;
+    var member_entered = document.getElementById("FavMember").value;
+    var instrument_entered = document.getElementById("instrument").value;
+    var email_entered = document.getElementById("EnterEmail").value;
+    var song_entered = document.getElementById("SongListed").value;
+    
+    document.getElementById("divConfirm").innerHTML = "Name:" + Name_entered + " " + "<br />" + "Favorite Band Member:"+ " " + member_entered + "<br />" + "Favorite Instrument:" + instrument_entered + "<br />" + "Email:" + email_entered + " " + <br /> "Favorite Song:" + " " + song_entered;
+}
+
+function EmailOpen()
+{
+    window.open("email.htm", "", "scrollbars=0, resizable=1, width=500px, height=250px, top=300px, left=400px")
+}
+
+function Email()
+{
+    var timer;
+    
+    timer = setTimeout("EmailOpen()", 3000)
+}
+    
+</script>
+</head>
+<body>
+    <div class="divWrap">
+        <header class="pageheader"> <img class="deathbatlogo" src="images/edited/deathbat2.jpg" />
+            <br />Avenged Sevenfold<br /> 
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.htm">Home</a></li>
+                <li><a href="about.htm">About</a></li>
+                <li><a href="members.htm">Members</a></li>
+                <li><a href="therev.htm">The Rev</a></li>
+                <li><a href="socialmedia.htm">Social Media</a></li>
+                <li><a href="survey.htm" class="selected">Survey</a></li>
+                <li><a href="live.htm">Live</a></li>
+            </ul>
+        </nav>
+        <section class="sectionMain">
+            <section class="sectionRightSurvey">
+                <form id="FormS" action="survey.htm" autocomplete="off">
+                    <p></p>
+                <article class="articleSurvey">
+                    <header class="pageheader">
+                        A7X Survey </header>
+                    <p></p>
+                    <table>
+                        <tr>
+                            <td>
+                                Name:
+                            </td>
+                            <td>
+                                <input type="text"
+                                       id="name"
+                                       name="Name" /> 
+                            </td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>
+                                    Favorite Band Member:
+                            </td>
+                            <td>
+                                <select id="FavMember">
+                                    <option value="MShadows">
+                                        M. Shadows
+                                    </option>
+                                    <option value="SynGates">
+                                        Synyster Gates
+                                    </option>
+                                    <option value="ZVeng">
+                                        Zacky Vengeance
+                                    </option>
+                                    <option value="JChrist">
+                                        Johnny Christ
+                                    </option>
+                                    <option value="TheRev">
+                                        The Reverend
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <br />
+                        <tr>
+                            <td>
+                                Favorite Instrument:
+                            </td>
+                            <td>
+                                        Lead Guitar
+                                <input type="radio"
+                                        id="instrument"
+                                        name="color" 
+                                        value="Lead Guitar" />
+                                        Rhythm Guitar
+                                <input type="radio"
+                                        id="instrument"
+                                        name="color" 
+                                        value="Rhythm Guitar" />
+                                <br />
+                                        Bass Guitar
+                                <input type="radio"
+                                        id="instrument"
+                                        name="color" 
+                                        value="Bass Guitar" />
+                                
+                                        Vocals
+                                <input type="radio"
+                                        id="instrument"
+                                        name="color" 
+                                        value="Vocals" />
+                                        Drums
+                                <input type="radio"
+                                        id="instrument"
+                                        name="color" 
+                                        value="Drums" />
+                                </td>
+                            </tr>
+                            <br />
+                            <tr>
+                                <td>
+                                        E-Mail:
+                                </td>
+                                <td>
+                                    <input type="text"
+                                       id="EnterEmail"
+                                       name="E-Mail" /> 
+                                </td>
+                            </tr>
+                            <br />
+                            <tr>
+                                <td>
+                                    Favorite Song:
+                                </td>
+                                <td>
+                                    <textarea rows="4" cols="50" id="SongListed">
+                                    </textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    <input type="button"
+                                           value="Confirm"
+                                           onclick="ConfirmFav();Email();" /> 
+                                    <input type="reset"
+                                           value="Reset"
+                                           onclick="Reset();" /> 
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                
+                    <article class="articleRightConfirm">
+                        <header class="pageheader">
+                            Confirmation
+                        </header>
+                        <br />
+                        <div id="divConfirm">
+                        </div>
+                    </article>
+
+            </section>
+    </form>
+        </section>
+        
+        <footer class="pageFooterExtended"><a href="http://www.avengedsevenfold.com/" target="_blank">
+            AvengedSevenfold.com </a>
+        </footer>
+    </div>
+</body>
+</html>

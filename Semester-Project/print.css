@@ -1,0 +1,335 @@
+ /* Lab 7 - Lucas Webb */
+.menuBar {display: none;}
+nav {display: none;}
+.menuSide {display: none;}
+.menuBar ul {display: none;}
+.menuBar li {display: none;}
+.menuBar a {display: none;}
+.menuSide a: {display: none;}
+body
+    {
+        font-size: 1em;
+        font-family: Calibri,sans-serif;
+        background-color: #BBD9EE;
+    }
+
+ .divWrap
+    { 
+        width: 88%;
+        min-height: 790px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+.divWrapDay
+    { 
+        width: 88%;
+        min-height: 1355px;
+        margin: auto;
+        border: 1px black solid;
+        background-color: white;
+        padding: 1%;
+    }
+
+.pageheader
+    {
+        width: 96%;
+        min-height: 149px;
+        border-bottom: 2px black solid;
+        background-color: #206BA4;
+        color: white;
+        line-height:  
+        font-size: 200%;
+        text-align: center;
+        margin: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        float: left;
+    }
+ .pageFooter
+    {
+        width: 96%;
+        min-height: 125px;
+        background-color: #206BA4;
+        color: white;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        position: center;
+        float: left;
+    }
+.menuBar
+    {
+        width: 80%;
+        min-height: 25px;
+        background-color: #C0C0C0;
+        padding-left:20%;
+        color: #ffffff;
+        position: relative;
+        float: left;
+    }
+     .menuBar ul
+        {
+            width: 100%;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .menuBar li
+        {
+            min-width: 10%;
+            float: left;
+            font-size: 1.2em;
+            padding-left: .5%;
+            padding-right: .5%;
+        }
+
+        .menuBar a
+        {
+            display: block;
+            padding: 3px 6px;
+            text-decoration: none;
+            color: white;
+        }
+
+            .menuBar a:hover
+            {
+                color: white;
+                background-color: #E7E4D3;
+            }
+
+    .menuSide
+    {
+        min-width: 18%;
+        min-height: 490px;
+        background-color: #C0C0C0;
+        color: #ffffff;
+        position: relative;
+        float: left;
+        margin-left:-1%;
+    }
+
+        .menuSide ul
+        {
+                width: 100%;
+                list-style: none;
+                margin-left: -40px;
+        }
+
+
+        .menuSide li
+        {
+            min-width: 18%;
+            font-size: 1.2em;
+            padding-left: .5%;
+            padding-right: .5%;
+            border-bottom:1px solid #c8c89a;
+        }
+
+        .menuSide a
+        {
+            display: block;
+            padding: 3px 6px;
+            text-decoration: none;
+            color: white;
+        }
+
+            .menuSide a:hover
+            {
+                color: white;
+                background-color: #E7E4D3;
+            }
+
+    .selected
+    {
+        background-color: #E7E4D3;
+        min-width: 100%;
+    }
+
+ .sectionMain
+    {
+        width: 98%;
+        min-height: 490px;
+        background-color: #E7E4D3;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+    }
+
+    .sectionRight
+    {
+        width: 82%;
+        min-height: 490px;
+        background-color: #E7E4D3;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+
+    .article1
+    {
+        width: 30%;
+        min-height: 45px;
+        background-color: white;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .articleHeading
+    { 
+        font-size: 1.5em;
+        color: grey;
+        text-align: center;
+    }
+
+    img
+    {
+        width: 100%;
+    }
+
+    .divImageWrap
+    {
+        width: 100%;
+        position: relative;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+
+.imgSpring
+    {
+        width: 100%;
+       
+    }
+
+.sectionTwitter
+    {
+        width: 99%;
+        min-height: 490px;
+        background-color: #E7E4D3;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+
+.articleTwitterFeed
+    {
+        width: 47%;
+        height: auto;
+        background-color: whitesmoke;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.twitter-timeline
+    {
+        width: auto;
+        height: auto;
+        min-height: 395px;;
+    }
+
+.articleTwitterTimeline
+    {
+        width: 46%;
+        min-height: 445px;
+        background-color: whitesmoke;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+
+.asideTwitter
+    {
+        width: 96%;
+        background-color: whitesmoke;
+        border: black;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+
+.sectionFacebook
+    {
+        width: 99%;
+        min-height: 490px;
+        background-color: #E7E4D3;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+.articleFacebook
+    {
+        width: 99%;
+        height: auto;
+        background-color: whitesmoke;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+
+.sectionCalendar
+    {
+        width: 99%;
+        min-height: 490px;
+        background-color: #E7E4D3;
+        padding-left: 1%;
+        list-sty
+        padding-right: 1%;
+        position: relative;
+        float: left;
+        margin-right:-1%;
+    }
+.articleCalendarContent
+    {
+        width: 33%;
+        height: auto;
+        background-color: whitesmoke;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.articleCalendarGoogle
+    {
+        width: 60%;
+        height: auto;
+        background-color: whitesmoke;
+        border: 1px solid gray;
+        padding: 1%;
+        position: relative;
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+.GoogleCalendar
+    {
+        width: 100%;
+        height: 400px;
+        
+    }

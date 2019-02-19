@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title> The Rev Page</title>
+    <!-- Semester - Lucas Webb -->
+    <!-- <iframe class="video" width="500" height="315" src="https://www.youtube.com/embed/l66unAtEZhU" frameborder="0" allowfullscreen></iframe> -->
+    <link href="Styles.css" rel="stylesheet" />
+    <script src="scripts/Scripts.js">
+    </script>
+    <script>
+    function startShow()
+        {
+            intNumber=setInterval("showSlides()", 2000);
+        }
+           
+
+    function stopInterval()
+        {
+            clearInterval(intNumber);
+        }
+
+    function showSlides()
+        {
+            var startImg = 1;
+            var range = 10;
+            var RandomNumero
+                RandomNumero = Math.floor(Math.random() * range) + startImg;
+            document.getElementById("ImgShow").src="images/therev/therev"+RandomNumero+".jpg";
+        
+            }
+    
+    </script>
+</head>
+<body>
+    <div class="divWrapTheRev">
+        <header class="pageheader"> 
+            <img class="deathbatlogo" src="images/edited/deathbat2.jpg" />
+            <br />Avenged Sevenfold<br /> 
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.htm">Home</a></li>
+                <li><a href="about.htm">About</a></li>
+                <li><a href="members.htm">Members</a></li>
+                <li><a href="therev.htm" class="selected">The Rev</a></li>
+                <li><a href="socialmedia.htm">Social Media</a></li>
+                <li><a href="survey.htm">Survey</a></li>
+                <li><a href="live.htm">Live</a></li>
+            </ul>
+        </nav>
+        <section class="sectionMain">
+            <form id="FormRev">
+            <nav class="menuSide">
+                <ul>
+                    <li><a href="members/mattshadows.htm" class="selected">The Reverend</a></li>
+                    
+                    <li></li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                  
+                </ul>
+            </nav>
+            
+            <section class="sectionRight">
+                  <p></p>
+             <article class="articleMembers"> 
+                <header class="articleHeading">Jimmy Sullivan aka The Rev</header>
+                <div class="divImageWrapRev">
+                    <p> Jimmy Owen Sullivan is the former drummer for the band Avenged Sevenfold. Jimmy took over many nicknames throughout his lifetime: The Rev, Rathead, The Reverend Tholomew Plague, Fiction. The Rev is one of the founding memebers of the band, although he believed he was too good for band during its uprising. Synyster Gates was The Rev's bestfriend when they were children, staying bestfriends throught his life. The Rev started playing drums at the age of five, when he began playing on pots and pans from his parent's kitchen.</p>
+                    <p> On December 28, 2009 The Rev was found dead in his house due to foul play. The autotopsy ruled inconclusive, although a toxicology report stated that he died from an "acute polydrug intoxication due to combined effects of Oxycodone, Oxymorphone, Diazepam/Nordiazepam and ethanol". The Rev's signature drum kit from 2008 is now on display at he Hard Rock Hotel in Lax Vegas.</p>
+                    
+                    <img id="ImgShow" src="images/therev/therevcover.jpg" />
+                    <br />
+                    <input type="button"
+                               id="buttonStart"
+                               value="Start Slideshow"
+                               onclick="startShow();" />
+                        
+                 
+                    <input type="button"
+                               id="buttonStop" 
+                               value="Stop Slideshow"
+                               onclick="stopInterval();" />
+                        
+                
+                    
+                </div>
+                    <video controls="controls" autoplay="on">
+					<source src="media/A7X.mp4" type="video.mp4" />
+					<source src="media/A7X.oggtheora.ogv" type="video/ogg" />
+					<source src="media/A7X.webmsd.webm" type="video/webm" />
+					Your web browser does not support this video type.
+				</video>
+                 
+            </article>
+            
+            </section>
+            </form>
+        </section>
+        
+         <footer class="pageFooterExtended"><a href="http://www.avengedsevenfold.com/" target="_blank">
+            AvengedSevenfold.com </a>
+        </footer>
+    </div>
+</body>
+</html>
