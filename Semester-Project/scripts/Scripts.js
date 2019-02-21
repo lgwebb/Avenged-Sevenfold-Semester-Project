@@ -34,7 +34,7 @@ function confirmFavorites()
     var email_entered = document.getElementById("EnterEmail").value;
     var song_entered = document.getElementById("SongListed").value;
     
-    document.getElementById('divConfirm').innerHTML = "Name:" + Name_entered + " " + "<br />" + "Favorite Band Member:"+ " " + member_entered + "<br />" + "Favorite Instrument:" + instrument_entered + "<br />" + "Email:" + email_entered + " " + <br /> "Favorite Song:" + " " + song_entered;
+    document.getElementById('divConfirm').innerHTML = "Name:" + Name_entered + " " + "<br />" + "Favorite Band Member:"+ " " + member_entered + "<br />" + "Favorite Instrument:" + instrument_entered + "<br />" + "Email:" + email_entered + " " + "<br />" + "Favorite Song:" + " " + song_entered;
 }
 
 function EmailOpen()

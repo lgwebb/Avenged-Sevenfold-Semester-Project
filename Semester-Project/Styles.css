@@ -9,7 +9,7 @@ body
  .divWrap
     { 
         width: 88%;
-        min-height: 880px;
+        min-height: 1020px;
         margin: auto;
         border: 1px black solid;
         background-color: white;
@@ -88,7 +88,6 @@ body
     .menuSide
     {
         min-width: 18%;
-        min-height: 490px;
         background-color: #ebebeb;
         color: #ffffff;
         position: relative;
@@ -282,7 +281,7 @@ body
  .divWrapMembers
     { 
         width: 88%;
-        min-height: 1400px;
+        min-height: 1650px;
         margin: auto;
         border: 1px black solid;
         background-color: white;
@@ -415,7 +414,7 @@ body
  .divWrapHome
     { 
         width: 88%;
-        min-height: 840px;
+        min-height: 1040px;
         margin: auto;
         border: 1px black solid;
         background-color: white;
